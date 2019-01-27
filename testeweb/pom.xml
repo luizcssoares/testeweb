@@ -74,11 +74,12 @@
         <groupId>org.wildfly.plugins</groupId>
         <artifactId>wildfly-maven-plugin</artifactId>
         <version>${wildfly-maven-plugin.version}</version>
-        <configuration>
-          <server-args>
-            <server-arg>-Djboss.http.port=8080</server-arg>
-          </server-args>
-        </configuration>
+           <configuration>
+		      <hostname>localhost</hostname>
+		      <port>9990</port>
+		      <username>admin</username>
+		      <password>f4a176baa33c4dca8b0bd3316ddd40cd</password>
+		   </configuration>               
       </plugin>
     </plugins>
   </build>
